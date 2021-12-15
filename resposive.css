@@ -1,0 +1,92 @@
+/**=================All Resposive================**/
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 892px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 668px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+/**=================Hero area Resposive================**/
+@media screen and (max-width: 992px) {
+  .hero__section {
+    height: auto;
+    padding: 100px 0px;
+  }
+  .hero__warper {
+    height: auto;
+    padding: 100px 0px;
+  }
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+  .hero__section__illustration {
+    display: none;
+  }
+}
+/**=================about area Resposive================**/
+@media screen and (max-width: 992px) {
+  .about__area__warper {
+    display: block;
+  }
+  .about__img {
+    width: 100%;
+  }
+  .about__content {
+    width: 100%;
+    text-align: center;
+    padding: 0px 100px;
+  }
+}
+
+/**=================Demo  area Resposive================**/
+@media screen and (max-width: 992px) {
+  .demos__warper {
+    display: block;
+    text-align: center;
+  }
+  .demos__content {
+    padding: 100px 0;
+    width: 100%;
+  }
+  .demos__cards {
+    width: 100%;
+  }
+}
+
+/**=================Contact--Area Resposive================**/
+@media screen and (max-width: 992px) {
+  .contact__warper {
+    display: block;
+  }
+  .contact__left {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+    width: 60%;
+  }
+  .contact__right {
+    width: 100%;
+    padding: 100px 20px;
+  }
+}
