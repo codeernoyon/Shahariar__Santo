@@ -100,7 +100,8 @@
 @media screen and (max-width: 992px) {
   .hero__section {
     height: auto;
-    padding: 100px 0px;
+    padding: 130px 0px;
+    box-sizing: border-box;
   }
   .hero__warper {
     height: auto;
@@ -218,3 +219,34 @@
 /*===============================================
 --------------------Sing up area--------------------------
 ==============================================*/
+@media screen and (max-width: 992px) {
+  .sing__up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form {
+    width: 90%;
+    padding: 50px 10px;
+  }
+  .illustration {
+    display: none;
+  }
+}
+/*===============================================
+--------------------Log in area--------------------------
+==============================================*/
+@media screen and (max-width: 992px) {
+  .log__in {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form {
+    width: 90%;
+    padding: 50px 10px;
+  }
+  .illustration {
+    display: none;
+  }
+}

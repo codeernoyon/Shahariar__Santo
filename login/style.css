@@ -116,6 +116,10 @@ button a {
   -ms-transform: scaleX(1);
   -o-transform: scaleX(1);
 }
+
+.nev__toggole {
+  display: none;
+}
 /*---------------------------log in------------------------------*/
 .log__in {
   padding: 165px 0;
