@@ -4,7 +4,7 @@ const content = document.querySelector(".content");
 const heroIllustration = document.querySelector(".hero__section__illustration");
 
 const headerOption = {
-  threshold: 1,
+  threshold: .87,
   rootMargin: "0px",
 };
 
