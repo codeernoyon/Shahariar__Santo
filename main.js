@@ -45,3 +45,11 @@ const sectionObserver = new IntersectionObserver((entries) => {
 sections.forEach((section) => {
   sectionObserver.observe(section);
 });
+
+
+/**============================Nav Toggle==========================**/
+const navToggle = document.querySelector('.nev__toggole');
+
+navToggle.addEventListener("click", function (){
+  header.classList.toggle('active');
+});

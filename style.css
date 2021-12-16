@@ -184,7 +184,9 @@ button a {
 .button:hover {
   background: rgb(8, 103, 236);
 }
-
+.nev__toggole {
+  display: none;
+}
 /**===================Hero-Section======================**/
 .hero__section {
   height: 100vh;
@@ -446,7 +448,7 @@ button a {
   grid-auto-rows: 175px;
   grid-auto-flow: dense;
   justify-content: center;
-  align-items: center;
+  place-items: center;
   grid-gap: 10px;
   height: auto;
   padding: 20px;
@@ -594,7 +596,7 @@ button a {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
   justify-content: center;
-  align-items: center;
+  place-items: center;
   height: 100%;
   width: 100%;
   padding-top: 30px;
