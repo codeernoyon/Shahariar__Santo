@@ -127,6 +127,12 @@
     display: none;
   }
 }
+@media screen and (max-width: 480px) {
+  .hero__section {
+    height: 100vh;
+    padding: 100px 0;
+  }
+}
 /**=================about area Resposive================**/
 @media screen and (max-width: 992px) {
   .about__area__warper {
