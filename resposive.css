@@ -36,8 +36,7 @@
     width: 90%;
     padding: 150px 0;
     text-align: center;
-    /* background: rgba(0, 0, 0, 0.9); */
-    background: red;
+    background: rgba(0, 0, 0, 0.9);
     height: 100vh;
     position: absolute;
     right: 0px;
@@ -215,3 +214,7 @@
     left: 0%;
   }
 }
+
+/*===============================================
+--------------------Sing up area--------------------------
+==============================================*/
