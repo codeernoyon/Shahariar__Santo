@@ -36,7 +36,8 @@
     width: 90%;
     padding: 150px 0;
     text-align: center;
-    background: rgba(0, 0, 0, 0.9);
+    /* background: rgba(0, 0, 0, 0.9); */
+    background: red;
     height: 100vh;
     position: absolute;
     right: 0px;
